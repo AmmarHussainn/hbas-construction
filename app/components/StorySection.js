@@ -62,7 +62,7 @@ export default function StorySection() {
                   Our firm was founded in 1990 by <strong className="text-gray-900">Mr. Basheer Ahmed Soomro</strong>, 
                   who laid the foundation with a vision to contribute in the field of construction and engineering law. 
                   Through his dedication, hard work, and professional commitment, the firm earned recognition for 
-                  delivering quality legal services, especially in the construction and infrastructure sector.
+                  delivering quality  services, especially in the construction and infrastructure sector.
                 </p>
               </div>
 
@@ -73,7 +73,7 @@ export default function StorySection() {
                   In continuation of his legacy, the firm is now being led by <strong className="text-gray-900">Mr. Furqan Ali Soomro</strong>, 
                   who has expanded the scope of services and strengthened the firm's reputation. Under his leadership, 
                   the firm has undertaken major projects in construction law, contract disputes, and large-scale 
-                  legal matters, ensuring timely delivery with quality and professionalism.
+                   matters, ensuring timely delivery with quality and professionalism.
                 </p>
               </div>
 
@@ -82,7 +82,7 @@ export default function StorySection() {
               }`} style={{ transitionDelay: '0.7s' }}>
                 <p className="text-lg text-gray-700 leading-relaxed">
                   Today, we are proudly registered with the <strong className="text-gray-900">Pakistan Bar Council</strong> as a 
-                  specialized Construction & Engineering Law Firm, reflecting our capacity to handle legal matters 
+                  specialized Construction & Engineering Developer, reflecting our capacity to handle  matters 
                   of any scale with excellence and expertise.
                 </p>
               </div>
@@ -92,7 +92,7 @@ export default function StorySection() {
                 isVisible ? 'translate-x-0 opacity-100' : '-translate-x-10 opacity-0'
               }`} style={{ transitionDelay: '0.9s' }}>
                 <p className="text-xl italic text-gray-600 font-light">
-                  "Building legal foundations as strong as the structures we represent"
+                  "Building  foundations as strong as the structures we represent"
                 </p>
               </div>
             </div>

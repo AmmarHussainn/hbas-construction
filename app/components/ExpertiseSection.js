@@ -55,7 +55,7 @@ export default function ExpertiseSection() {
     {
       number: "03",
       title: "Post-Contract", 
-      description: "Legal representation and advice for dispute avoidance or resolution",
+      description: " representation and advice for dispute avoidance or resolution",
       services: [
         "Litigation, Mediation, Arbitration",
         "Security of Payment (SOPA)",
@@ -79,7 +79,7 @@ export default function ExpertiseSection() {
           <div className="max-w-4xl mx-auto">
             <p className="text-lg sm:text-xl text-gray-700 leading-relaxed">
               Our multidisciplinary team ensures better outcomes at every stage of your project lifecycle. 
-              With diverse industry experience, we proactively manage commercial and legal risk to enhance, 
+              With diverse industry experience, we proactively manage commercial and  risk to enhance, 
               build and protect your assets and opportunities.
             </p>
           </div>

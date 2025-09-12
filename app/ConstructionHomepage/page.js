@@ -4,6 +4,7 @@ import { ChevronDown, Phone, Mail, MapPin, Users, Award, Wrench, Building, Dropl
 import HeroSection from '../components/HeroSection';
 import ExpertiseSection from '../components/ExpertiseSection';
 import StorySection from '../components/StorySection';
+import MissionValuesSection from '../components/MissionValuesSection';
 const page = () => {
    const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [scrollY, setScrollY] = useState(0);
@@ -46,6 +47,7 @@ const page = () => {
 
    <ExpertiseSection/>
    <StorySection/>
+   <MissionValuesSection/>
 </div>
   );
 }

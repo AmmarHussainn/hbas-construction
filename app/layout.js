@@ -16,7 +16,7 @@ const redHatDisplay = Red_Hat_Display({
 });
 
 export const metadata = {
-  title: "Kreisson - Construction & Engineering Lawyers",
+  title: "M/S HBAS & CO - Construction & Engineering Lawyers",
   description: "Practical Advice. Commercial Outcomes.",
 };
 
