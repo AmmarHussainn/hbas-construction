@@ -2,6 +2,7 @@ import { Inter } from 'next/font/google'; // Modern, clean font
 import { Red_Hat_Display } from 'next/font/google';
 import Navbar from './components/Navbar';
 import './globals.css';
+import Footer from './components/Footer';
 
 const inter = Inter({
   variable: '--font-inter',
@@ -16,7 +17,7 @@ const redHatDisplay = Red_Hat_Display({
 });
 
 export const metadata = {
-  title: "M/S HBAS & CO - Construction & Engineering Lawyers",
+  title: "M/S HBAS & CO - Construction & Engineering Consturctionyers",
   description: "Practical Advice. Commercial Outcomes.",
 };
 
@@ -26,6 +27,7 @@ export default function RootLayout({ children }) {
       <body className={`${inter.variable} ${redHatDisplay.variable} antialiased`}>
         <Navbar />
         {children}
+      <Footer/>
       </body>
     </html>
   );

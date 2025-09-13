@@ -1,10 +1,19 @@
-import Image from "next/image";
+import Image from 'next/image';
+import CeoSection from './components/CeoSection';
+import HeroPage from './components/HeroSection';
+import ExpertiseSection from './components/ExpertiseSection';
+import StorySection from './components/StorySection';
+import MissionValuesSection from './components/MissionValuesSection';
 
 export default function Home() {
   return (
-       <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <div className='min-h-screen bg-white overflow-x-hidden'>
+      <HeroPage />
+      <ExpertiseSection />
+      <StorySection />
 
+      <CeoSection />
+      <MissionValuesSection />
+    </div>
   );
 }

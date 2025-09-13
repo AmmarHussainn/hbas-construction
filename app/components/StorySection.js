@@ -59,9 +59,9 @@ export default function StorySection() {
                 isVisible ? 'translate-x-0 opacity-100' : '-translate-x-10 opacity-0'
               }`} style={{ transitionDelay: '0.3s' }}>
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  Our firm was founded in 1990 by <strong className="text-gray-900">Mr. Basheer Ahmed Soomro</strong>, 
-                  who laid the foundation with a vision to contribute in the field of construction and engineering law. 
-                  Through his dedication, hard work, and professional commitment, the firm earned recognition for 
+                  Our Company was founded in 1990 by <strong className="text-gray-900">Mr. Basheer Ahmed Soomro</strong>, 
+                  who laid the foundation with a vision to contribute in the field of construction and engineering Consturction. 
+                  Through his dedication, hard work, and professional commitment, the Company earned recognition for 
                   delivering quality  services, especially in the construction and infrastructure sector.
                 </p>
               </div>
@@ -70,9 +70,9 @@ export default function StorySection() {
                 isVisible ? 'translate-x-0 opacity-100' : '-translate-x-10 opacity-0'
               }`} style={{ transitionDelay: '0.5s' }}>
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  In continuation of his legacy, the firm is now being led by <strong className="text-gray-900">Mr. Furqan Ali Soomro</strong>, 
-                  who has expanded the scope of services and strengthened the firm's reputation. Under his leadership, 
-                  the firm has undertaken major projects in construction law, contract disputes, and large-scale 
+                  In continuation of his legacy, the Company is now being led by <strong className="text-gray-900">Mr. Furqan Ali Soomro</strong>, 
+                  who has expanded the scope of services and strengthened the Company's reputation. Under his leadership, 
+                  the Company has undertaken major projects in construction Consturction, contract disputes, and large-scale 
                    matters, ensuring timely delivery with quality and professionalism.
                 </p>
               </div>

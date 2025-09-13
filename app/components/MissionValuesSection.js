@@ -59,7 +59,7 @@ export default function MissionValuesSection() {
           <div className="max-w-5xl">
             <p className="text-lg sm:text-xl lg:text-2xl text-gray-700 leading-relaxed font-light">
               Our mission is to deliver comprehensive and innovative  solutions in construction, 
-              engineering, and infrastructure law. We are committed to excellence by combining technical 
+              engineering, and infrastructure Consturction. We are committed to excellence by combining technical 
               expertise,  innovation, and unwavering integrity to provide reliable, cost-effective, 
               and high-quality  services. With a focus on protecting our clients' interests and 
               ensuring project success, we aim to contribute to industry development while upholding 

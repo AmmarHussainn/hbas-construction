@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import Link from 'next/link';
 import { useState, useEffect } from 'react';
 
 export default function Navbar() {
@@ -28,48 +29,42 @@ export default function Navbar() {
           {/* Logo */}
           <div className="flex-shrink-0">
             <div className="flex items-center">
+              <a href='/' className="flex items-center">
+
               <Image src="/assets/logo.png" width={70} height={60} alt=' M/S HBAS & CO'/>
               <span className={`ml-3 text-xl font-semibold tracking-wider `}>
                 M/S HBAS & CO
               </span>
+              </a>
             </div>
           </div>
 
           {/* Desktop Menu */}
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-8">
-              <a
-                href="#"
-                className={`px-3 py-2 text-sm font-medium transition-colors duration-300 hover:text-yellow-600 `}
-              >
-                OUR PEOPLE
-              </a>
-              <a
-                href="#"
+             
+              <Link
+                href="/ExpertisePage"
                 className={`px-3 py-2 text-sm font-medium transition-colors duration-300 hover:text-yellow-600 `}
               >
                 OUR EXPERTISE
-              </a>
+              </Link>
               <div className="relative group">
-                <a
-                  href="#"
+                <Link
+                  href="/StoryPage"
                   className={`px-3 py-2 text-sm font-medium transition-colors duration-300 hover:text-yellow-600 flex items-center `}
                 >
-                  SECTORS
-                  <svg className="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                  </svg>
-                </a>
+                  OUR STORY
+                  
+                </Link>
               </div>
               <div className="relative group">
                 <a
                   href="#"
                   className={`px-3 py-2 text-sm font-medium transition-colors duration-300 hover:text-yellow-600 flex items-center `}
                 >
-                  RESOURCES
-                  <svg className="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                  </svg>
+                  LEADERSHIP
+                 
                 </a>
               </div>
               <a
@@ -83,9 +78,9 @@ export default function Navbar() {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <button className="bg-gray-800 text-white px-6 py-2 text-sm font-medium hover:bg-gray-700 transition-colors duration-300">
+            <Link href="/ContactPage" className="bg-gray-800 text-white px-6 py-2 text-sm font-medium hover:bg-gray-700 transition-colors duration-300">
               TALK TO US
-            </button>
+            </Link>
           </div>
 
           {/* Mobile menu button */}
