@@ -100,51 +100,7 @@ export default function CeoSection() {
                       </p>
                     </div>
 
-                    {/* Contact Information */}
-                    <div className={`space-y-4 transform transition-all duration-700 ${
-                      isVisible ? 'translate-x-0 opacity-100' : 'translate-x-10 opacity-0'
-                    }`} style={{ transitionDelay: '0.7s' }}>
-                      
-                      <h4 className="text-lg font-semibold text-gray-900 mb-4">Direct Contact</h4>
-                      
-                      {/* Phone Numbers */}
-                      <div className="flex items-center space-x-3 group hover:text-yellow-600 transition-colors duration-200">
-                        <div className="w-10 h-10 bg-yellow-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-200">
-                          <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                          </svg>
-                        </div>
-                        <div>
-                          <p className="text-gray-700 font-medium">0300-9317148</p>
-                          <p className="text-gray-600 text-sm">Primary Contact</p>
-                        </div>
-                      </div>
-
-                      <div className="flex items-center space-x-3 group hover:text-yellow-600 transition-colors duration-200">
-                        <div className="w-10 h-10 bg-gray-700 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-200">
-                          <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                          </svg>
-                        </div>
-                        <div>
-                          <p className="text-gray-700 font-medium">0333-3628812</p>
-                          <p className="text-gray-600 text-sm">Alternative Contact</p>
-                        </div>
-                      </div>
-
-                      {/* Email */}
-                      <div className="flex items-center space-x-3 group hover:text-yellow-600 transition-colors duration-200">
-                        <div className="w-10 h-10 bg-yellow-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-200">
-                          <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                          </svg>
-                        </div>
-                        <div>
-                          <p className="text-gray-700 font-medium">hbas.and.co@gmail.com</p>
-                          <p className="text-gray-600 text-sm">Direct Email</p>
-                        </div>
-                      </div>
-                    </div>
+                   
                   </div>
                 </div>
               </div>
@@ -221,7 +177,7 @@ export default function CeoSection() {
               </svg>
             </button>
             <button className="inline-flex items-center bg-yellow-600 text-black px-8 py-4 text-sm font-bold hover:bg-yellow-700 transition-all duration-300 group">
-              CONTACT DIRECTLY
+              CONTACT US
               <svg 
                 className="ml-2 w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-300" 
                 fill="none" 

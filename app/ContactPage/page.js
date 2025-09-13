@@ -72,7 +72,7 @@ export default function ContactPage() {
       title: 'Email Communication',
       subtitle: 'Document Sharing',
       description: 'Send project documents and detailed inquiries for thorough review and response.',
-      contact: 'info@constructionConsturction.pk',
+      contact: 'hbas.and.co@gmail.com',
       hours: 'Response within 24 hours',
       type: 'email',
     },
@@ -178,103 +178,7 @@ export default function ContactPage() {
         </div>
       </section>
 
-      {/* Contact Methods Section */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div
-            className={`contact-item text-center mb-16 transform transition-all duration-1000 ${
-              visibleSections.includes(0) ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
-            }`}
-            data-index="0"
-          >
-            <div className="inline-block bg-yellow-600 text-black px-8 py-4 transform -skew-x-12 mb-6">
-              <h2 className="text-3xl sm:text-4xl font-bold transform skew-x-12">Get In Touch</h2>
-            </div>
-            <p className="text-lg text-gray-700 max-w-3xl mx-auto">
-              Choose the most convenient way to reach us. We're committed to providing immediate support for your
-              construction and engineering Consturction needs.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {contactMethods.map((method, index) => (
-              <div
-                key={index}
-                className={`contact-item bg-gray-50 p-8 rounded-lg shadow-lg hover:shadow-xl transition-all duration-500 text-center border border-gray-100 group transform ${
-                  visibleSections.includes(0) ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
-                }`}
-                style={{ transitionDelay: `${index * 150}ms` }}
-                data-index="0"
-              >
-                <div className="mb-6">
-                  <div
-                    className={`w-16 h-16 mx-auto rounded-full flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300 ${
-                      method.type === 'phone'
-                        ? 'bg-green-100'
-                        : method.type === 'location'
-                        ? 'bg-blue-100'
-                        : method.type === 'email'
-                        ? 'bg-purple-100'
-                        : 'bg-red-100'
-                    }`}
-                  >
-                    {method.type === 'phone' && (
-                      <svg className="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth={2}
-                          d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
-                        />
-                      </svg>
-                    )}
-                    {method.type === 'location' && (
-                      <svg className="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth={2}
-                          d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
-                        />
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                      </svg>
-                    )}
-                    {method.type === 'email' && (
-                      <svg className="w-8 h-8 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth={2}
-                          d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-                        />
-                      </svg>
-                    )}
-                    {method.type === 'emergency' && (
-                      <svg className="w-8 h-8 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth={2}
-                          d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.732-.833-2.5 0L4.268 16.5c-.77.833.192 2.5 1.732 2.5z"
-                        />
-                      </svg>
-                    )}
-                  </div>
-                </div>
-
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">{method.title}</h3>
-                <p className="text-yellow-600 font-medium text-sm mb-4">{method.subtitle}</p>
-                <p className="text-gray-600 text-sm mb-6 leading-relaxed">{method.description}</p>
-
-                <div className="space-y-2">
-                  <div className="font-semibold text-gray-900">{method.contact}</div>
-                  <div className="text-gray-500 text-sm">{method.hours}</div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+   
 
       {/* Contact Form Section */}
       <section className="py-20 bg-gray-50">
